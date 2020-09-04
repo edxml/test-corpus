@@ -1,0 +1,36 @@
+{
+  "name": "edxml/test-corpus",
+  "description": "A collection of portable unit tests for EDXML implementations",
+  "type": "library",
+  "keywords": [
+    "edxml"
+  ],
+  "homepage": "http://edxml.org",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dik Takken",
+      "email": "dik.takken@edxml.org"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/edxml/test-corpus/issues"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Edxml\\Testing\\": ""
+    }
+  },
+  "require": {
+    "php": ">=7.4 | >=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0",
+    "friendsofphp/php-cs-fixer": "^2.18"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.0-dev"
+    }
+  }
+}

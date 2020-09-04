@@ -1,0 +1,4 @@
+/build/
+/dist/
+/edxml_test_corpus.egg-info/
+__pycache__/
