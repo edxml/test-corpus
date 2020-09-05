@@ -1,3 +1,8 @@
+|license| |pyversion|
+
+.. |license| image::  https://img.shields.io/badge/License-LGPL%20v3-blue.svg
+.. |pyversion| image::  https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue
+
 ====================================
 The EDXML Test Corpus Python Package
 ====================================

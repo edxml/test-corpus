@@ -1,3 +1,9 @@
+|license| |python package| |php package|
+
+.. |license| image::  https://img.shields.io/badge/License-LGPL%20v3-blue.svg
+.. |python package| image::    https://github.com/edxml/test-corpus/workflows/Python%20package/badge.svg
+.. |php package| image::    https://github.com/edxml/test-corpus/workflows/PHP%20package/badge.svg
+
 =====================
 The EDXML Test Corpus
 =====================
