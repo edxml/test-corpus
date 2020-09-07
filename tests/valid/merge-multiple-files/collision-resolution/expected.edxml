@@ -19,6 +19,7 @@
           <property name="e" object-type="d" description="e" unique="false" optional="true" multivalued="false" merge="replace"/>
           <property name="f" object-type="d" description="f" unique="false" optional="true" multivalued="true" merge="drop"/>
           <property name="g" object-type="d" description="g" unique="false" optional="true" multivalued="false" merge="replace"/>
+          <property name="h" object-type="d" description="g" unique="false" optional="true" multivalued="true" merge="set"/>
           <property name="v" object-type="e" description="g" unique="false" optional="false" multivalued="false" merge="max"/>
         </properties>
         <relations/>
@@ -152,6 +153,26 @@
       <b>2000-01-01T00:00:00.000000Z</b>
       <c>0</c>
       <v>0</v>
+    </properties>
+  </event>
+  <event event-type="a" source-uri="/test/">
+    <properties>
+      <a>q</a>
+      <b>2000-01-01T00:00:00.000000Z</b>
+      <c>0</c>
+      <h>apples</h>
+      <h>oranges</h>
+      <v>1</v>
+    </properties>
+  </event>
+  <event event-type="a" source-uri="/test/">
+    <properties>
+      <a>r</a>
+      <b>2000-01-01T00:00:00.000000Z</b>
+      <c>0</c>
+      <h>apples</h>
+      <h>oranges</h>
+      <v>2</v>
     </properties>
   </event>
 </edxml>
