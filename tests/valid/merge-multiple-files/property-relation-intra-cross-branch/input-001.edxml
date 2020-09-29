@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Test if an intra-concept relation where the related properties do not share a common base concept is rejected.
+Test if defining an intra-concept relation between two concepts
+that do not share a common branch in the concept name hierarchy
+is accepted as valid.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
