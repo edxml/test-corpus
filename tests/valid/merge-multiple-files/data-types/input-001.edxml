@@ -28,7 +28,7 @@ Testing if valid values of various data types are correctly parsed and reproduce
       <objecttype name="hashlink" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hashlink"/>
       <objecttype name="uri" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="uri:/"/>
       <objecttype name="uuid" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="uuid"/>
-      <objecttype name="ip" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="ip"/>
+      <objecttype name="ip" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="ip:v4"/>
       <objecttype name="datetime" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="datetime"/>
       <objecttype name="sequence" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="sequence"/>
       <objecttype name="boolean" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="boolean"/>

@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Testing event definition validation, verify
-if properties illegal combinations of merge
-strategies and data types are rejected.
-
-max strategy combined with ip data type.
+Testing object value validation, verify
+if an IPv4 data type containing an IPv6 address value is rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="ip"/>
+      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="ip:v4"/>
     </objecttypes>
     <concepts/>
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
           <property name="a" object-type="a" description="a" unique="true" optional="false" multivalued="false" merge="match"/>
-          <property name="b" object-type="a" description="b" unique="false" optional="false" multivalued="false" merge="max"/>
         </properties>
         <relations/>
       </eventtype>
     </eventtypes>
-    <sources/>
+    <sources>
+      <source uri="/test/" description="a" date-acquired="20000101" version="1"/>
+    </sources>
   </ontology>
+  <event event-type="a" source-uri="/test/">
+    <properties>
+      <a>2001:0db8:0000:0000:0000:ff00:0042:8329</a>
+    </properties>
+  </event>
 </edxml>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 Testing object value validation, verify
-if a nonsensical IPv4 address is rejected.
+if an IPv6 data type containing an IPv4 address value is rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="ip:v4"/>
+      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="ip:v6"/>
     </objecttypes>
     <concepts/>
     <eventtypes>
@@ -23,7 +23,7 @@ if a nonsensical IPv4 address is rejected.
   </ontology>
   <event event-type="a" source-uri="/test/">
     <properties>
-      <a>null</a>
+      <a>10.0.0.01</a>
     </properties>
   </event>
 </edxml>

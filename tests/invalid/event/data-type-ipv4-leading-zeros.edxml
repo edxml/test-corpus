@@ -6,7 +6,7 @@ if an IPv4 address with leading zeros in the octets is rejected.
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="ip"/>
+      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="ip:v4"/>
     </objecttypes>
     <concepts/>
     <eventtypes>
