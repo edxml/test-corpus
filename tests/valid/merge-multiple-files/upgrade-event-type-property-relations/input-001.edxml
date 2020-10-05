@@ -5,7 +5,7 @@ Test if upgrading of the property relations of an event type works as expected.
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" compress="true" data-type="string:10:cs"/>
+      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" compress="true" data-type="string:10:mc"/>
     </objecttypes>
     <concepts>
       <concept name="a" version="1" description="a" display-name-singular="a" display-name-plural="a"/>

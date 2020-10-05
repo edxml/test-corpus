@@ -7,7 +7,7 @@ expression are rejected.
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" regexp="[a]{2}" data-type="string:255:cs"/>
+      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" regexp="[a]{2}" data-type="string:255:mc"/>
     </objecttypes>
     <concepts/>
     <eventtypes>

@@ -9,7 +9,7 @@ Test if XML containing comments and processing instructions is accepted.
     <objecttypes>
       <!-- comment -->
       <?foo attr="bar"?>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" compress="true" data-type="string:10:cs"/>
+      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" compress="true" data-type="string:10:mc"/>
     </objecttypes>
     <!-- comment -->
     <concepts>

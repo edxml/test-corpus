@@ -34,9 +34,9 @@ Testing if valid values of various data types are correctly parsed and reproduce
       <objecttype name="boolean" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="boolean"/>
       <objecttype name="enum" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="enum:yes:no"/>
       <objecttype name="base64" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="base64:1024"/>
-      <objecttype name="string.8" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:cs"/>
-      <objecttype name="string.8.ci" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:ci"/>
-      <objecttype name="string.8.ci.u" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:ci:u"/>
+      <objecttype name="string.8" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc"/>
+      <objecttype name="string.8.ci" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc"/>
+      <objecttype name="string.8.ci.u" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc:u"/>
     </objecttypes>
     <concepts/>
     <eventtypes>
