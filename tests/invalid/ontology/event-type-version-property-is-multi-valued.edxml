@@ -13,7 +13,7 @@ that is multi-valued are rejected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" event-version="a" summary="a" story="a" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" unique="false" optional="false" multivalued="true" merge="max"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="true" merge="max"/>
         </properties>
         <relations/>
       </eventtype>

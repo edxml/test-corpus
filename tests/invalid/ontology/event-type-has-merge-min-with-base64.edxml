@@ -15,8 +15,8 @@ min strategy combined with bas64 data type.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" unique="true" optional="false" multivalued="false" merge="match"/>
-          <property name="b" object-type="a" description="b" unique="false" optional="false" multivalued="false" merge="min"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="b" object-type="a" description="b" optional="false" multivalued="false" merge="min"/>
         </properties>
         <relations/>
       </eventtype>

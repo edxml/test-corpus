@@ -13,10 +13,10 @@ Test if upgrading of properties of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="12">
         <properties>
-          <property name="a" object-type="a" description="changed-description" unique="true" optional="true" multivalued="true" merge="match" similar="changed-similar">
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" merge="match" similar="changed-similar">
             <property-concept name="a" confidence="9" cnp="9" attr-extension="ext" attr-display-name-singular="singular" attr-display-name-plural="plural"/>
           </property>
-          <property name="b" object-type="a" description="b" unique="true" optional="true" multivalued="true" merge="match"/>
+          <property name="b" object-type="a" description="b" optional="true" multivalued="true" merge="match"/>
         </properties>
         <relations/>
       </eventtype>

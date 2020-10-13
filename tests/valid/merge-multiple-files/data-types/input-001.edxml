@@ -42,38 +42,38 @@ Testing if valid values of various data types are correctly parsed and reproduce
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
-          <property name="number-tinyint-signed" object-type="number.tinyint.signed" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-tinyint-unsigned" object-type="number.tinyint.unsigned" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-smallint-signed" object-type="number.smallint.signed" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-smallint-unsigned" object-type="number.smallint.unsigned" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-mediumint-signed" object-type="number.mediumint.signed" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-mediumint-unsigned" object-type="number.mediumint.unsigned" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-int-signed" object-type="number.int.signed" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-int-unsigned" object-type="number.int.unsigned" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-bigint-signed" object-type="number.bigint.signed" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-bigint-unsigned" object-type="number.bigint.unsigned" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-float-signed" object-type="number.float.signed" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-float-unsigned" object-type="number.float.unsigned" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-double-signed" object-type="number.double.signed" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-double-unsigned" object-type="number.double.unsigned" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-decimal-3-2-signed" object-type="number.decimal.3.2.signed" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="number-decimal-3-2-unsigned" object-type="number.decimal.3.2.unsigned" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="hex-6-2-colon" object-type="hex.6.2.colon" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="hex-6-2-dot" object-type="hex.6.2.dot" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="hex-6" object-type="hex.6" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="geo-point" object-type="geo.point" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="hashlink" object-type="hashlink" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="uri" object-type="uri" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="uuid" object-type="uuid" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="ip" object-type="ip" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="datetime" object-type="datetime" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="sequence" object-type="sequence" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="boolean" object-type="boolean" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="enum" object-type="enum" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="base64" object-type="base64" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="string-8" object-type="string.8" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="string-8-ci" object-type="string.8.ci" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="string-8-ci-u" object-type="string.8.ci.u" description="a" unique="false" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-tinyint-signed" object-type="number.tinyint.signed" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-tinyint-unsigned" object-type="number.tinyint.unsigned" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-smallint-signed" object-type="number.smallint.signed" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-smallint-unsigned" object-type="number.smallint.unsigned" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-mediumint-signed" object-type="number.mediumint.signed" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-mediumint-unsigned" object-type="number.mediumint.unsigned" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-int-signed" object-type="number.int.signed" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-int-unsigned" object-type="number.int.unsigned" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-bigint-signed" object-type="number.bigint.signed" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-bigint-unsigned" object-type="number.bigint.unsigned" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-float-signed" object-type="number.float.signed" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-float-unsigned" object-type="number.float.unsigned" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-double-signed" object-type="number.double.signed" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-double-unsigned" object-type="number.double.unsigned" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-decimal-3-2-signed" object-type="number.decimal.3.2.signed" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="number-decimal-3-2-unsigned" object-type="number.decimal.3.2.unsigned" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="hex-6-2-colon" object-type="hex.6.2.colon" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="hex-6-2-dot" object-type="hex.6.2.dot" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="hex-6" object-type="hex.6" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="geo-point" object-type="geo.point" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="hashlink" object-type="hashlink" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="uri" object-type="uri" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="uuid" object-type="uuid" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="ip" object-type="ip" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="datetime" object-type="datetime" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="sequence" object-type="sequence" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="boolean" object-type="boolean" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="enum" object-type="enum" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="base64" object-type="base64" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="string-8" object-type="string.8" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="string-8-ci" object-type="string.8.ci" description="a" optional="true" multivalued="true" merge="drop"/>
+          <property name="string-8-ci-u" object-type="string.8.ci.u" description="a" optional="true" multivalued="true" merge="drop"/>
         </properties>
         <relations/>
       </eventtype>

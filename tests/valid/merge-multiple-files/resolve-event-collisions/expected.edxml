@@ -12,14 +12,14 @@
     <eventtypes>
       <eventtype name="a" description="a" event-version="v" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" unique="true" optional="false" multivalued="false" merge="match"/>
-          <property name="b" object-type="b" description="b" unique="false" optional="false" multivalued="false" merge="min"/>
-          <property name="c" object-type="c" description="c" unique="false" optional="false" multivalued="false" merge="max"/>
-          <property name="d" object-type="d" description="d" unique="false" optional="true" multivalued="true" merge="add"/>
-          <property name="e" object-type="d" description="e" unique="false" optional="true" multivalued="false" merge="replace"/>
-          <property name="f" object-type="d" description="f" unique="false" optional="true" multivalued="true" merge="drop"/>
-          <property name="g" object-type="d" description="g" unique="false" optional="true" multivalued="false" merge="replace"/>
-          <property name="v" object-type="e" description="g" unique="false" optional="false" multivalued="false" merge="max"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="b" object-type="b" description="b" optional="false" multivalued="false" merge="min"/>
+          <property name="c" object-type="c" description="c" optional="false" multivalued="false" merge="max"/>
+          <property name="d" object-type="d" description="d" optional="true" multivalued="true" merge="add"/>
+          <property name="e" object-type="d" description="e" optional="true" multivalued="false" merge="replace"/>
+          <property name="f" object-type="d" description="f" optional="true" multivalued="true" merge="drop"/>
+          <property name="g" object-type="d" description="g" optional="true" multivalued="false" merge="replace"/>
+          <property name="v" object-type="e" description="g" optional="false" multivalued="false" merge="max"/>
         </properties>
         <relations/>
       </eventtype>

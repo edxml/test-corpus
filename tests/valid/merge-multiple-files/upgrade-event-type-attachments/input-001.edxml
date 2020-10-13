@@ -11,7 +11,7 @@ Test if upgrading of attachments of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="description" unique="true" optional="true" multivalued="true" merge="match"/>
+          <property name="a" object-type="a" description="description" optional="true" multivalued="true" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -25,7 +25,7 @@ Test if upgrading of attachments of an event type works as expected.
       <!-- No changes, only a version increment. -->
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="2">
         <properties>
-          <property name="a" object-type="a" description="description" unique="true" optional="true" multivalued="true" merge="match"/>
+          <property name="a" object-type="a" description="description" optional="true" multivalued="true" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -38,7 +38,7 @@ Test if upgrading of attachments of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="3">
         <properties>
-          <property name="a" object-type="a" description="description" unique="true" optional="true" multivalued="true" merge="match"/>
+          <property name="a" object-type="a" description="description" optional="true" multivalued="true" merge="match"/>
         </properties>
         <relations/>
         <attachments>
@@ -54,7 +54,7 @@ Test if upgrading of attachments of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="4">
         <properties>
-          <property name="a" object-type="a" description="description" unique="true" optional="true" multivalued="true" merge="match"/>
+          <property name="a" object-type="a" description="description" optional="true" multivalued="true" merge="match"/>
         </properties>
         <relations/>
         <attachments>
@@ -71,7 +71,7 @@ Test if upgrading of attachments of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="5">
         <properties>
-          <property name="a" object-type="a" description="description" unique="true" optional="true" multivalued="true" merge="match"/>
+          <property name="a" object-type="a" description="description" optional="true" multivalued="true" merge="match"/>
         </properties>
         <relations/>
         <attachments>
@@ -88,7 +88,7 @@ Test if upgrading of attachments of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="6">
         <properties>
-          <property name="a" object-type="a" description="description" unique="true" optional="true" multivalued="true" merge="match"/>
+          <property name="a" object-type="a" description="description" optional="true" multivalued="true" merge="match"/>
         </properties>
         <relations/>
         <attachments>

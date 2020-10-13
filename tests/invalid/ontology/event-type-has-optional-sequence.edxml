@@ -13,7 +13,7 @@ an optional property is rejected
     <eventtypes>
       <eventtype name="a" description="a" sequence="a" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
-          <property name="a" object-type="a" description="c" unique="false" optional="true" multivalued="false" merge="drop"/>
+          <property name="a" object-type="a" description="c" optional="true" multivalued="false" merge="drop"/>
         </properties>
         <relations/>
       </eventtype>

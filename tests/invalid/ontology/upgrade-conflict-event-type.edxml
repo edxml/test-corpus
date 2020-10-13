@@ -13,7 +13,7 @@ Test if conflicting event type definitions are rejected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" unique="true" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -27,7 +27,7 @@ Test if conflicting event type definitions are rejected.
       <!-- Description changed, version did not -->
       <eventtype name="a" description="changed-description" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" unique="true" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
         </properties>
         <relations/>
       </eventtype>

@@ -11,20 +11,20 @@ Test if changing the parent event in a parent definition is rejected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" unique="true" optional="true" multivalued="true" merge="match"/>
-          <property name="b" object-type="a" description="b" unique="false" optional="true" multivalued="true" merge="drop"/>
+          <property name="a" object-type="a" description="a" optional="true" multivalued="true" merge="match"/>
+          <property name="b" object-type="a" description="b" optional="true" multivalued="true" merge="drop"/>
         </properties>
       </eventtype>
       <eventtype name="b" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" unique="true" optional="true" multivalued="true" merge="match"/>
-          <property name="b" object-type="a" description="b" unique="false" optional="true" multivalued="true" merge="drop"/>
+          <property name="a" object-type="a" description="a" optional="true" multivalued="true" merge="match"/>
+          <property name="b" object-type="a" description="b" optional="true" multivalued="true" merge="drop"/>
         </properties>
       </eventtype>
       <eventtype name="c" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <parent eventtype="a" propertymap="a:a" parent-description="a" siblings-description="a"/>
         <properties>
-          <property name="a" object-type="a" description="a" unique="true" optional="true" multivalued="true" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="true" multivalued="true" merge="match"/>
         </properties>
       </eventtype>
     </eventtypes>
@@ -38,7 +38,7 @@ Test if changing the parent event in a parent definition is rejected.
         <!-- The eventtype attribute in below parent definition changed -->
         <parent eventtype="b" propertymap="a:a" parent-description="a" siblings-description="a"/>
         <properties>
-          <property name="a" object-type="a" description="a" unique="true" optional="true" multivalued="true" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="true" multivalued="true" merge="match"/>
         </properties>
       </eventtype>
     </eventtypes>

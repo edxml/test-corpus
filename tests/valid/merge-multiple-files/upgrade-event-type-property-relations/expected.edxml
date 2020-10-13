@@ -13,10 +13,10 @@ Test if upgrading of the property relations of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="6">
         <properties>
-          <property name="a" object-type="a" description="description" unique="true" optional="true" multivalued="true" merge="match">
+          <property name="a" object-type="a" description="description" optional="true" multivalued="true" merge="match">
             <property-concept name="a" confidence="9" cnp="9"/>
           </property>
-          <property name="b" object-type="a" description="b" unique="true" optional="true" multivalued="true" merge="match"/>
+          <property name="b" object-type="a" description="b" optional="true" multivalued="true" merge="match"/>
         </properties>
         <relations>
           <!-- Changed predicate -->

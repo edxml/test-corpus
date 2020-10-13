@@ -12,7 +12,7 @@ treated as equivalent in stead of being refused as conflicting definitions.
     <eventtypes>
       <eventtype name="a" description="a" classlist="a,b" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" unique="false" optional="false" multivalued="false" merge="drop"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="drop"/>
         </properties>
         <relations/>
       </eventtype>
@@ -26,7 +26,7 @@ treated as equivalent in stead of being refused as conflicting definitions.
       <!-- Event type class name ordering has changed -->
       <eventtype name="a" description="a" classlist="b,a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" unique="false" optional="false" multivalued="false" merge="drop"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="drop"/>
         </properties>
         <relations/>
       </eventtype>

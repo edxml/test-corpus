@@ -13,7 +13,7 @@ that does not exist are rejected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" event-version="b" summary="a" story="a" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" unique="false" optional="false" multivalued="false" merge="drop"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="drop"/>
         </properties>
         <relations/>
       </eventtype>

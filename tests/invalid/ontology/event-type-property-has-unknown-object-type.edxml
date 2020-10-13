@@ -10,7 +10,7 @@ if property having an unknown object type is rejected
     <eventtypes>
       <eventtype name="a" description="a" event-version="c" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
-          <property name="a" object-type="a" description="c" unique="true" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="c" optional="false" multivalued="false" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
