@@ -8,7 +8,7 @@ Test if upgrading of an event source works as expected.
     <concepts/>
     <eventtypes/>
     <sources>
-      <source uri="/a/" description="changed-description" date-acquired="20200101" version="4"/>
+      <source uri="/a/" description="changed-description" version="4"/>
     </sources>
   </ontology>
 </edxml>

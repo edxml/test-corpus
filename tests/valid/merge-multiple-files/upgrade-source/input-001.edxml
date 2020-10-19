@@ -8,7 +8,7 @@ Test if upgrading of an event source works as expected.
     <concepts/>
     <eventtypes/>
     <sources>
-      <source uri="/a/" description="a" date-acquired="20190101" version="1"/>
+      <source uri="/a/" description="a" version="1"/>
     </sources>
   </ontology>
   <ontology>
@@ -17,7 +17,7 @@ Test if upgrading of an event source works as expected.
     <eventtypes/>
     <sources>
       <!-- No changes, only a version increment. -->
-      <source uri="/a/" description="a" date-acquired="20190101" version="2"/>
+      <source uri="/a/" description="a" version="2"/>
     </sources>
   </ontology>
   <ontology>
@@ -25,7 +25,7 @@ Test if upgrading of an event source works as expected.
     <concepts/>
     <eventtypes/>
     <sources>
-      <source uri="/a/" description="changed-description" date-acquired="20190101" version="3"/>
+      <source uri="/a/" description="changed-description" version="3"/>
     </sources>
   </ontology>
   <ontology>
@@ -33,7 +33,7 @@ Test if upgrading of an event source works as expected.
     <concepts/>
     <eventtypes/>
     <sources>
-      <source uri="/a/" description="changed-description" date-acquired="20200101" version="4"/>
+      <source uri="/a/" description="changed-description" version="4"/>
     </sources>
   </ontology>
 </edxml>

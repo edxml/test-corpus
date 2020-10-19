@@ -28,7 +28,7 @@ Testing if resolving event collisions between consecutive input files works as e
       </eventtype>
     </eventtypes>
     <sources>
-      <source uri="/test/" description="a" date-acquired="20000101" version="1"/>
+      <source uri="/test/" description="a" version="1"/>
     </sources>
   </ontology>
   <event event-type="a" source-uri="/test/" parents="86f7e437faa5a7fce15d1ddcb9eaeaea377667b8">

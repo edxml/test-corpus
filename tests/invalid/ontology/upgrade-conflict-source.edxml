@@ -8,7 +8,7 @@ Test if conflicting source definitions are rejected.
     <concepts/>
     <eventtypes/>
     <sources>
-      <source uri="/a/" description="a" date-acquired="20190101" version="1"/>
+      <source uri="/a/" description="a" version="1"/>
     </sources>
   </ontology>
   <ontology>
@@ -17,7 +17,7 @@ Test if conflicting source definitions are rejected.
     <eventtypes/>
     <sources>
       <!-- Description changed, version did not -->
-      <source uri="/a/" description="changed" date-acquired="20190101" version="1"/>
+      <source uri="/a/" description="changed" version="1"/>
     </sources>
   </ontology>
 </edxml>

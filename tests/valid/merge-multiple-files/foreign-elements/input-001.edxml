@@ -18,7 +18,7 @@ EDXML event is treated correctly.
       </eventtype>
     </eventtypes>
     <sources>
-      <source uri="/test/" description="a" date-acquired="20000101" version="1"/>
+      <source uri="/test/" description="a" version="1"/>
     </sources>
   </ontology>
   <f:event xmlns:f="http://foreign/namespace" event-type="a" source-uri="/test/">

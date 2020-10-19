@@ -53,7 +53,7 @@ Test if XML containing comments and processing instructions is accepted.
     </eventtypes>
     <!-- comment -->
     <sources>
-        <source uri="/a/" description="a" date-acquired="20200101" version="1"/>
+        <source uri="/a/" description="a" version="1"/>
     </sources>
   </ontology>
   <!-- comment -->

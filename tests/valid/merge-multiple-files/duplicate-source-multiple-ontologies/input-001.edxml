@@ -8,7 +8,7 @@ Test if duplicate source definitions in multiple ontology elements are accepted.
     <concepts/>
     <eventtypes/>
     <sources>
-      <source uri="/a/" description="a" date-acquired="20190101" version="1"/>
+      <source uri="/a/" description="a" version="1"/>
     </sources>
   </ontology>
   <ontology>
@@ -16,7 +16,7 @@ Test if duplicate source definitions in multiple ontology elements are accepted.
     <concepts/>
     <eventtypes/>
     <sources>
-      <source uri="/a/" description="a" date-acquired="20190101" version="1"/>
+      <source uri="/a/" description="a" version="1"/>
     </sources>
   </ontology>
 </edxml>

@@ -18,7 +18,7 @@ if a negative unsigned tiny integer is rejected.
       </eventtype>
     </eventtypes>
     <sources>
-      <source uri="/test/" description="a" date-acquired="20000101" version="1"/>
+      <source uri="/test/" description="a" version="1"/>
     </sources>
   </ontology>
   <event event-type="a" source-uri="/test/">
