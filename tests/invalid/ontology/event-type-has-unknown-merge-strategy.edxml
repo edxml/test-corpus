@@ -12,7 +12,7 @@ if property having an unknown merge strategy is rejected
     <eventtypes>
       <eventtype name="a" description="a" event-version="c" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
-          <property name="a" object-type="a" description="c" optional="false" multivalued="false" merge="unknown"/>
+          <property name="a" object-type="a" description="c" optional="false" multivalued="false" confidence="10" merge="unknown"/>
         </properties>
         <relations/>
       </eventtype>

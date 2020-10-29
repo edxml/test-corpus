@@ -14,9 +14,9 @@ an optional property is rejected
     <eventtypes>
       <eventtype name="a" description="a" event-version="c" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
-          <property name="a" object-type="a" description="c" optional="false" multivalued="false" merge="match"/>
-          <property name="b" object-type="a" description="c" optional="false" multivalued="false" merge="replace"/>
-          <property name="c" object-type="b" description="c" optional="true" multivalued="false" merge="max"/>
+          <property name="a" object-type="a" description="c" optional="false" multivalued="false" confidence="10" merge="match"/>
+          <property name="b" object-type="a" description="c" optional="false" multivalued="false" confidence="10" merge="replace"/>
+          <property name="c" object-type="b" description="c" optional="true" multivalued="false" confidence="10" merge="max"/>
         </properties>
         <relations/>
       </eventtype>

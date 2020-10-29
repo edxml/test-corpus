@@ -13,9 +13,9 @@ Testing event conflict detection.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1" event-version="c">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
-          <property name="b" object-type="b" description="b" optional="false" multivalued="true" merge="add"/>
-          <property name="c" object-type="c" description="c" optional="false" multivalued="false" merge="max"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
+          <property name="b" object-type="b" description="b" optional="false" multivalued="true" confidence="10" merge="add"/>
+          <property name="c" object-type="c" description="c" optional="false" multivalued="false" confidence="10" merge="max"/>
         </properties>
         <relations/>
       </eventtype>

@@ -13,10 +13,10 @@ Test if a relation of type 'other' that specifies the concept1 attribute is reje
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match">
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match">
             <property-concept name="a" confidence="8" cnp="8"/>
           </property>
-          <property name="b" object-type="a" description="a" optional="false" multivalued="false" merge="match">
+          <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match">
             <property-concept name="a" confidence="8" cnp="8"/>
           </property>
         </properties>

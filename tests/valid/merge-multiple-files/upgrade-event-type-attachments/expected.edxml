@@ -11,7 +11,7 @@ Test if upgrading of attachments of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="6">
         <properties>
-          <property name="a" object-type="a" description="description" optional="true" multivalued="true" merge="match"/>
+          <property name="a" object-type="a" description="description" optional="true" multivalued="true" confidence="10" merge="match"/>
         </properties>
         <relations/>
         <attachments>

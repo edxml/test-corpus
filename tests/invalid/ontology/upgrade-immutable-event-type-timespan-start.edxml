@@ -11,8 +11,8 @@ Test if upgrading the timespan start of an event type is refused.
     <eventtypes>
       <eventtype name="a" description="a" timespan-start="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
-          <property name="b" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
+          <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -25,8 +25,8 @@ Test if upgrading the timespan start of an event type is refused.
     <eventtypes>
       <eventtype name="a" description="a" timespan-start="b" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="2">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
-          <property name="b" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
+          <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>

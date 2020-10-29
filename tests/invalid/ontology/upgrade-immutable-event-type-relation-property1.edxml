@@ -11,9 +11,9 @@ Test if changing the property1 attribute of a property relation is refused.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
-          <property name="b" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
-          <property name="c" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
+          <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
+          <property name="c" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations>
           <other property1="a" property2="b" directed="false" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
@@ -28,9 +28,9 @@ Test if changing the property1 attribute of a property relation is refused.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="2">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
-          <property name="b" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
-          <property name="c" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
+          <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
+          <property name="c" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations>
           <other property1="c" property2="b" directed="false" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>

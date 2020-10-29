@@ -13,7 +13,7 @@ Test if upgrading the attributes of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" summary="changed summary" story="changed-story" classlist="class" version="8">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>

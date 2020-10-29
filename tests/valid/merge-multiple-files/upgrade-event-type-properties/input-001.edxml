@@ -13,7 +13,7 @@ Test if upgrading of properties of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -27,7 +27,7 @@ Test if upgrading of properties of an event type works as expected.
       <!-- No changes, only a version increment. -->
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="2">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -40,7 +40,7 @@ Test if upgrading of properties of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="3">
         <properties>
-          <property name="a" object-type="a" description="changed-description" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="changed-description" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -54,7 +54,7 @@ Test if upgrading of properties of an event type works as expected.
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="4">
         <properties>
           <!-- Make property optional -->
-          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -68,7 +68,7 @@ Test if upgrading of properties of an event type works as expected.
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="5">
         <properties>
           <!-- Make property multi-valued -->
-          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" merge="match"/>
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -82,7 +82,7 @@ Test if upgrading of properties of an event type works as expected.
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="6">
         <properties>
           <!-- Set similar attribute -->
-          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" merge="match" similar="test"/>
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" confidence="10" merge="match" similar="test"/>
         </properties>
         <relations/>
       </eventtype>
@@ -96,7 +96,7 @@ Test if upgrading of properties of an event type works as expected.
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="7">
         <properties>
           <!-- Change similar attribute -->
-          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" merge="match" similar="changed-similar"/>
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" confidence="10" merge="match" similar="changed-similar"/>
         </properties>
         <relations/>
       </eventtype>
@@ -109,10 +109,8 @@ Test if upgrading of properties of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="8">
         <properties>
-          <!-- Add concept association -->
-          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" merge="match" similar="changed-similar">
-            <property-concept name="a" confidence="8" cnp="8" attr-extension="ext"/>
-          </property>
+          <!-- Change confidence attribute -->
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" confidence="1" merge="match" similar="changed-similar"/>
         </properties>
         <relations/>
       </eventtype>
@@ -125,9 +123,9 @@ Test if upgrading of properties of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="9">
         <properties>
-          <!-- Change concept confidence -->
-          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" merge="match" similar="changed-similar">
-            <property-concept name="a" confidence="9" cnp="8" attr-extension="ext"/>
+          <!-- Add concept association -->
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" confidence="1" merge="match" similar="changed-similar">
+            <property-concept name="a" confidence="8" cnp="8" attr-extension="ext"/>
           </property>
         </properties>
         <relations/>
@@ -141,8 +139,24 @@ Test if upgrading of properties of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="10">
         <properties>
+          <!-- Change concept confidence -->
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" confidence="1" merge="match" similar="changed-similar">
+            <property-concept name="a" confidence="9" cnp="8" attr-extension="ext"/>
+          </property>
+        </properties>
+        <relations/>
+      </eventtype>
+    </eventtypes>
+    <sources/>
+  </ontology>
+  <ontology>
+    <objecttypes/>
+    <concepts/>
+    <eventtypes>
+      <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="11">
+        <properties>
           <!-- Change concept CNP -->
-          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" merge="match" similar="changed-similar">
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" confidence="1" merge="match" similar="changed-similar">
             <property-concept name="a" confidence="9" cnp="9" attr-extension="ext"/>
           </property>
         </properties>
@@ -162,26 +176,10 @@ Test if upgrading of properties of an event type works as expected.
     </objecttypes>
     <concepts/>
     <eventtypes>
-      <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="10">
-        <properties>
-          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" merge="match" similar="changed-similar">
-            <property-concept name="a" confidence="9" cnp="9" attr-extension="ext"/>
-          </property>
-        </properties>
-        <relations/>
-      </eventtype>
-    </eventtypes>
-    <sources/>
-  </ontology>
-  <ontology>
-    <objecttypes/>
-    <concepts/>
-    <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="11">
         <properties>
-          <!-- Change concept attribute display name -->
-          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" merge="match" similar="changed-similar">
-            <property-concept name="a" confidence="9" cnp="9" attr-extension="ext" attr-display-name-singular="singular" attr-display-name-plural="plural"/>
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" confidence="1" merge="match" similar="changed-similar">
+            <property-concept name="a" confidence="9" cnp="9" attr-extension="ext"/>
           </property>
         </properties>
         <relations/>
@@ -195,11 +193,27 @@ Test if upgrading of properties of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="12">
         <properties>
-          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" merge="match" similar="changed-similar">
+          <!-- Change concept attribute display name -->
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" confidence="1" merge="match" similar="changed-similar">
+            <property-concept name="a" confidence="9" cnp="9" attr-extension="ext" attr-display-name-singular="singular" attr-display-name-plural="plural"/>
+          </property>
+        </properties>
+        <relations/>
+      </eventtype>
+    </eventtypes>
+    <sources/>
+  </ontology>
+  <ontology>
+    <objecttypes/>
+    <concepts/>
+    <eventtypes>
+      <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="13">
+        <properties>
+          <property name="a" object-type="a" description="changed-description" optional="true" multivalued="true" confidence="1" merge="match" similar="changed-similar">
             <property-concept name="a" confidence="9" cnp="9" attr-extension="ext" attr-display-name-singular="singular" attr-display-name-plural="plural"/>
           </property>
           <!-- Added property -->
-          <property name="b" object-type="a" description="b" optional="true" multivalued="true" merge="match"/>
+          <property name="b" object-type="a" description="b" optional="true" multivalued="true" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>

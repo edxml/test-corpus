@@ -15,15 +15,15 @@ Testing if resolving event collisions within a single input file works as expect
     <eventtypes>
       <eventtype name="a" description="a" event-version="v" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
-          <property name="b" object-type="b" description="b" optional="false" multivalued="false" merge="min"/>
-          <property name="c" object-type="c" description="c" optional="false" multivalued="false" merge="max"/>
-          <property name="d" object-type="d" description="d" optional="true" multivalued="true" merge="add"/>
-          <property name="e" object-type="d" description="e" optional="true" multivalued="false" merge="replace"/>
-          <property name="f" object-type="d" description="f" optional="true" multivalued="true" merge="drop"/>
-          <property name="g" object-type="d" description="g" optional="true" multivalued="false" merge="replace"/>
-          <property name="h" object-type="d" description="g" optional="true" multivalued="true" merge="set"/>
-          <property name="v" object-type="e" description="g" optional="false" multivalued="false" merge="max"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
+          <property name="b" object-type="b" description="b" optional="false" multivalued="false" confidence="10" merge="min"/>
+          <property name="c" object-type="c" description="c" optional="false" multivalued="false" confidence="10" merge="max"/>
+          <property name="d" object-type="d" description="d" optional="true" multivalued="true" confidence="10" merge="add"/>
+          <property name="e" object-type="d" description="e" optional="true" multivalued="false" confidence="10" merge="replace"/>
+          <property name="f" object-type="d" description="f" optional="true" multivalued="true" confidence="10" merge="drop"/>
+          <property name="g" object-type="d" description="g" optional="true" multivalued="false" confidence="10" merge="replace"/>
+          <property name="h" object-type="d" description="g" optional="true" multivalued="true" confidence="10" merge="set"/>
+          <property name="v" object-type="e" description="g" optional="false" multivalued="false" confidence="10" merge="max"/>
         </properties>
         <relations/>
       </eventtype>

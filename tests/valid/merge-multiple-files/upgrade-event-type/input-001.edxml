@@ -13,7 +13,7 @@ Test if upgrading the attributes of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -27,7 +27,7 @@ Test if upgrading the attributes of an event type works as expected.
       <!-- No changes, only a version increment. -->
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="2">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -40,7 +40,7 @@ Test if upgrading the attributes of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="changed-description" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="3">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -53,7 +53,7 @@ Test if upgrading the attributes of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="a" summary="[[a]]" story="[[a]]" version="4">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -66,7 +66,7 @@ Test if upgrading the attributes of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" summary="[[a]]" story="[[a]]" version="5">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -79,7 +79,7 @@ Test if upgrading the attributes of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" summary="changed summary" story="[[a]]" version="6">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -92,7 +92,7 @@ Test if upgrading the attributes of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" summary="changed summary" story="changed-story" version="7">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>
@@ -105,7 +105,7 @@ Test if upgrading the attributes of an event type works as expected.
     <eventtypes>
       <eventtype name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" summary="changed summary" story="changed-story" classlist="class" version="8">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>

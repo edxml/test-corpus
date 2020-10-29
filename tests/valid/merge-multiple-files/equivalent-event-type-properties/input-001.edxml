@@ -12,8 +12,8 @@ treated as equivalent in stead of being refused as conflicting definitions.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="drop"/>
-          <property name="b" object-type="a" description="a" optional="false" multivalued="false" merge="drop"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="drop"/>
+          <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="drop"/>
         </properties>
         <relations/>
       </eventtype>
@@ -27,8 +27,8 @@ treated as equivalent in stead of being refused as conflicting definitions.
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
           <!-- Property order has changed, optional 'merge' attribute with default value 'drop' has been omitted -->
-          <property name="b" object-type="a" description="a" optional="false" multivalued="false"/>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false"/>
+          <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10"/>
         </properties>
         <relations/>
       </eventtype>

@@ -11,7 +11,7 @@ Testing if a foreign event attribute is accepted.
     <eventtypes>
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
-          <property name="a" object-type="a" description="c" optional="true" multivalued="false" merge="match"/>
+          <property name="a" object-type="a" description="c" optional="true" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations/>
       </eventtype>

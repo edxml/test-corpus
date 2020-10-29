@@ -11,8 +11,8 @@ Test if upgrading the event sequence property of an event type is refused.
     <eventtypes>
       <eventtype name="a" description="a" sequence="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="drop"/>
-          <property name="b" object-type="a" description="a" optional="false" multivalued="false" merge="drop"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="drop"/>
+          <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="drop"/>
         </properties>
         <relations/>
       </eventtype>
@@ -25,8 +25,8 @@ Test if upgrading the event sequence property of an event type is refused.
     <eventtypes>
       <eventtype name="a" description="a" sequence="b" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="2">
         <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" merge="drop"/>
-          <property name="b" object-type="a" description="a" optional="false" multivalued="false" merge="drop"/>
+          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="drop"/>
+          <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="drop"/>
         </properties>
         <relations/>
       </eventtype>

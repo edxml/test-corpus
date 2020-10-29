@@ -23,11 +23,11 @@ Test if XML containing comments and processing instructions is accepted.
         <!-- comment -->
         <properties>
           <!-- comment -->
-          <property name="a" object-type="a" description="a" optional="true" multivalued="true" merge="match" similar="a">
+          <property name="a" object-type="a" description="a" optional="true" multivalued="true" confidence="10" merge="match" similar="a">
             <!-- comment -->
             <property-concept name="a" confidence="9" cnp="9"/>
           </property>
-          <property name="b" object-type="a" description="b" optional="true" multivalued="true" merge="drop"/>
+          <property name="b" object-type="a" description="b" optional="true" multivalued="true" confidence="10" merge="drop"/>
         </properties>
         <!-- comment -->
         <relations>
@@ -47,7 +47,7 @@ Test if XML containing comments and processing instructions is accepted.
         <!-- comment -->
         <properties>
           <!-- comment -->
-          <property name="a" object-type="a" description="a" optional="true" multivalued="true" merge="match" similar="a"/>
+          <property name="a" object-type="a" description="a" optional="true" multivalued="true" confidence="10" merge="match" similar="a"/>
         </properties>
       </eventtype>
     </eventtypes>
