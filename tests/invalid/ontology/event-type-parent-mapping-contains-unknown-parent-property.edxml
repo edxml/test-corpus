@@ -20,7 +20,7 @@ if parent definitions that map unknown parent properties are rejected:
         <parent eventtype="a" propertymap="a:a,b:b" parent-description="a" siblings-description="a"/>
         <properties>
           <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
-          <property name="b" object-type="a" description="b" optional="false" multivalued="false" confidence="10" merge="drop"/>
+          <property name="b" object-type="a" description="b" optional="false" multivalued="false" confidence="10"/>
         </properties>
         <relations/>
       </eventtype>

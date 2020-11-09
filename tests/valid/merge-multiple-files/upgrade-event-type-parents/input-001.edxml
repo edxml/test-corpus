@@ -12,7 +12,7 @@ Test if upgrading of parents of an event type works as expected.
       <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
           <property name="a" object-type="a" description="a" optional="true" multivalued="true" confidence="10" merge="match"/>
-          <property name="b" object-type="a" description="b" optional="true" multivalued="true" confidence="10" merge="drop"/>
+          <property name="b" object-type="a" description="b" optional="true" multivalued="true" confidence="10"/>
         </properties>
         <relations/>
         <attachments/>

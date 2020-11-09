@@ -20,7 +20,7 @@ Testing if resolving event collisions between consecutive input files works as e
           <property name="c" object-type="c" description="c" optional="false" multivalued="false" confidence="10" merge="max"/>
           <property name="d" object-type="d" description="d" optional="true" multivalued="true" confidence="10" merge="add"/>
           <property name="e" object-type="d" description="e" optional="true" multivalued="false" confidence="10" merge="replace"/>
-          <property name="f" object-type="d" description="f" optional="true" multivalued="true" confidence="10" merge="drop"/>
+          <property name="f" object-type="d" description="f" optional="true" multivalued="true" confidence="10"/>
           <property name="g" object-type="d" description="g" optional="true" multivalued="false" confidence="10" merge="replace"/>
           <property name="v" object-type="e" description="g" optional="false" multivalued="false" confidence="10" merge="max"/>
         </properties>

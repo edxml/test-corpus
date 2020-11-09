@@ -27,7 +27,7 @@ Test if XML containing comments and processing instructions is accepted.
             <!-- comment -->
             <property-concept name="a" confidence="9" cnp="9"/>
           </property>
-          <property name="b" object-type="a" description="b" optional="true" multivalued="true" confidence="10" merge="drop"/>
+          <property name="b" object-type="a" description="b" optional="true" multivalued="true" confidence="10"/>
         </properties>
         <!-- comment -->
         <relations>

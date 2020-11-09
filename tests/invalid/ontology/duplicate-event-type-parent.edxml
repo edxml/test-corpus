@@ -21,8 +21,8 @@ if duplicate parent definitions are rejected.
         <parent eventtype="a" propertymap="c:a" parent-description="a" siblings-description="a"/>
         <parent eventtype="a" propertymap="c:a" parent-description="a" siblings-description="a"/>
         <properties>
-          <property name="c" object-type="a" description="c" optional="true" multivalued="false" confidence="10" merge="drop"/>
-          <property name="d" object-type="a" description="d" optional="true" multivalued="false" confidence="10" merge="drop"/>
+          <property name="c" object-type="a" description="c" optional="true" multivalued="false" confidence="10"/>
+          <property name="d" object-type="a" description="d" optional="true" multivalued="false" confidence="10"/>
         </properties>
         <relations/>
       </eventtype>
