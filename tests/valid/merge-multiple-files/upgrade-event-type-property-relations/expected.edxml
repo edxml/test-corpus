@@ -20,7 +20,7 @@ Test if upgrading of the property relations of an event type works as expected.
         </properties>
         <relations>
           <!-- Changed predicate -->
-          <other property1="a" property2="b" directed="false" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
+          <other property1="a" property2="b" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
         </relations>
       </eventtype>
     </eventtypes>

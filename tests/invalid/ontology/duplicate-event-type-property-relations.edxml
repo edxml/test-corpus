@@ -15,8 +15,8 @@ Test if duplicate event type property relation definitions are rejected.
           <property name="b" object-type="a" description="b" optional="true" multivalued="true" confidence="10" merge="match"/>
         </properties>
         <relations>
-          <other property1="a" property2="b" directed="false" description="[[a]] related to [[b]]" confidence="1" predicate="related"/>
-          <other property1="a" property2="b" directed="false" description="[[a]] related to [[b]]" confidence="1" predicate="related"/>
+          <other property1="a" property2="b" description="[[a]] related to [[b]]" confidence="1" predicate="related"/>
+          <other property1="a" property2="b" description="[[a]] related to [[b]]" confidence="1" predicate="related"/>
         </relations>
       </eventtype>
     </eventtypes>

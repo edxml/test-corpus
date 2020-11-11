@@ -21,7 +21,7 @@ Test if a relation of type 'other' that specifies the concept1 attribute is reje
           </property>
         </properties>
         <relations>
-          <other property1="a" property2="b" concept1="a" directed="false" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
+          <other property1="a" property2="b" concept1="a" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
         </relations>
       </eventtype>
     </eventtypes>

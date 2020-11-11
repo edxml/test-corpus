@@ -21,7 +21,7 @@ which is not associated with a concept is rejected.
           <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations>
-          <inter property1="a" property2="b" concept1="a" concept2="b" directed="false" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
+          <inter property1="a" property2="b" concept1="a" concept2="b" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
         </relations>
       </eventtype>
     </eventtypes>
