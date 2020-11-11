@@ -15,7 +15,7 @@ Test if a property relation referencing an undefined property is rejected.
           <property name="b" object-type="a" description="b" optional="true" multivalued="true" confidence="10" merge="match"/>
         </properties>
         <relations>
-          <unknown property1="a" property2="c" description="[[a]] related to [[b]]" confidence="1" predicate="related"/>
+          <unknown source="a" target="c" description="[[a]] related to [[b]]" confidence="1" predicate="related"/>
         </relations>
       </eventtype>
     </eventtypes>

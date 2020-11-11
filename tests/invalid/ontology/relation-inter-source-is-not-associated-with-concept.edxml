@@ -24,7 +24,7 @@ which is not associated with the specified concept is rejected.
           </property>
         </properties>
         <relations>
-          <inter property1="a" property2="b" concept1="c" concept2="b" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
+          <inter source="a" target="b" source-concept="c" target-concept="b" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
         </relations>
       </eventtype>
     </eventtypes>

@@ -17,7 +17,7 @@ Test if a relation having a confidence that is too large is rejected.
           <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations>
-          <other property1="a" property2="b" description="[[a]] linked to [[b]]" confidence="11" predicate="linked"/>
+          <other source="a" target="b" description="[[a]] linked to [[b]]" confidence="11" predicate="linked"/>
         </relations>
       </eventtype>
     </eventtypes>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Test if a relation of type 'other' that specifies the concept1 attribute is rejected.
+Test if a relation of type 'other' that specifies the source-concept attribute is rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
@@ -21,7 +21,7 @@ Test if a relation of type 'other' that specifies the concept1 attribute is reje
           </property>
         </properties>
         <relations>
-          <other property1="a" property2="b" concept1="a" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
+          <other source="a" target="b" source-concept="a" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
         </relations>
       </eventtype>
     </eventtypes>

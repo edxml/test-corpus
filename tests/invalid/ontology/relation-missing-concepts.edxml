@@ -22,7 +22,7 @@ Test if an inter-concept relation that is missing the concept attributes is reje
           </property>
         </properties>
         <relations>
-          <inter property1="a" property2="b" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
+          <inter source="a" target="b" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
         </relations>
       </eventtype>
     </eventtypes>
