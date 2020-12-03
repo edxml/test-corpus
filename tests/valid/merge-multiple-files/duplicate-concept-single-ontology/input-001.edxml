@@ -16,12 +16,12 @@ Test if duplicate concept definitions within a single ontology element are accep
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts>
       <concept name="a" version="1" description="a" display-name-singular="a" display-name-plural="a"/>
       <concept name="a" version="1" description="a" display-name-singular="a" display-name-plural="a"/>
     </concepts>
-    <eventtypes/>
+    <event-types/>
     <sources/>
   </ontology>
 </edxml>

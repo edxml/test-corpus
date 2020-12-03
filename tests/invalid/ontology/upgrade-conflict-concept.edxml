@@ -16,20 +16,20 @@ Test if conflicting concept definitions are rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts>
       <concept name="a" description="a" display-name-singular="a" display-name-plural="a" version="1"/>
     </concepts>
-    <eventtypes/>
+    <event-types/>
     <sources/>
   </ontology>
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts>
       <!-- Description changed, version did not -->
       <concept name="a" description="changed" display-name-singular="a" display-name-plural="a" version="1"/>
     </concepts>
-    <eventtypes/>
+    <event-types/>
     <sources/>
   </ontology>
 </edxml>

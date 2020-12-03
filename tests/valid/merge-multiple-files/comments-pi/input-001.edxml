@@ -18,20 +18,20 @@ Test if XML containing comments and processing instructions is accepted.
   <!-- comment -->
   <ontology>
     <!-- comment -->
-    <objecttypes>
+    <object-types>
       <!-- comment -->
       <?foo attr="bar"?>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" compress="true" data-type="string:10:mc"/>
-    </objecttypes>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" compress="true" data-type="string:10:mc"/>
+    </object-types>
     <!-- comment -->
     <concepts>
       <!-- comment -->
       <concept name="a" version="1" description="a" display-name-singular="a" display-name-plural="a"/>
     </concepts>
     <!-- comment -->
-    <eventtypes>
+    <event-types>
       <!-- comment -->
-      <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
+      <event-type name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <!-- comment -->
         <properties>
           <!-- comment -->
@@ -51,18 +51,18 @@ Test if XML containing comments and processing instructions is accepted.
           <!-- comment -->
           <attachment name="a" description="a" display-name-singular="a" display-name-plural="a" media-type="text/plain" encoding="unicode"/>
         </attachments>
-      </eventtype>
+      </event-type>
       <!-- comment -->
-      <eventtype name="b" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
+      <event-type name="b" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <!-- comment -->
-        <parent eventtype="a" propertymap="a:a" parent-description="a" siblings-description="a"/>
+        <parent event-type="a" property-map="a:a" parent-description="a" siblings-description="a"/>
         <!-- comment -->
         <properties>
           <!-- comment -->
           <property name="a" object-type="a" description="a" optional="true" multivalued="true" confidence="10" merge="match" similar="a"/>
         </properties>
-      </eventtype>
-    </eventtypes>
+      </event-type>
+    </event-types>
     <!-- comment -->
     <sources>
         <source uri="/a/" description="a" version="1"/>

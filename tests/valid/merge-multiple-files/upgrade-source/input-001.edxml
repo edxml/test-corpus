@@ -16,34 +16,34 @@ Test if upgrading of an event source works as expected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources>
       <source uri="/a/" description="a" version="1"/>
     </sources>
   </ontology>
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources>
       <!-- No changes, only a version increment. -->
       <source uri="/a/" description="a" version="2"/>
     </sources>
   </ontology>
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources>
       <source uri="/a/" description="changed-description" version="3"/>
     </sources>
   </ontology>
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources>
       <source uri="/a/" description="changed-description" version="4"/>
     </sources>

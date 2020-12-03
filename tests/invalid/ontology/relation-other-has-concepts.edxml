@@ -16,15 +16,15 @@ Test if a relation of type 'other' that specifies the source-concept / target-co
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="datetime"/>
-    </objecttypes>
+    <object-types>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="datetime"/>
+    </object-types>
     <concepts>
       <concept name="a" description="a" display-name-singular="a" display-name-plural="a" version="1"/>
       <concept name="b" description="b" display-name-singular="b" display-name-plural="b" version="1"/>
     </concepts>
-    <eventtypes>
-      <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
+    <event-types>
+      <event-type name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
           <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match">
             <property-concept name="a" confidence="8" cnp="8"/>
@@ -36,8 +36,8 @@ Test if a relation of type 'other' that specifies the source-concept / target-co
         <relations>
           <other source="a" target="b" source-concept="a" target-concept="b" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
         </relations>
-      </eventtype>
-    </eventtypes>
+      </event-type>
+    </event-types>
     <sources/>
   </ontology>
 </edxml>

@@ -16,44 +16,44 @@ Test if conflicting event type parent definitions are rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:10:mc"/>
-    </objecttypes>
+    <object-types>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:10:mc"/>
+    </object-types>
     <concepts/>
-    <eventtypes>
-      <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
+    <event-types>
+      <event-type name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
           <property name="a" object-type="a" description="a" optional="true" multivalued="true" confidence="10" merge="match"/>
           <property name="b" object-type="a" description="b" optional="true" multivalued="true" confidence="10"/>
         </properties>
-      </eventtype>
-      <eventtype name="b" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
-        <parent eventtype="a" propertymap="a:a" parent-description="a" siblings-description="a"/>
+      </event-type>
+      <event-type name="b" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
+        <parent event-type="a" property-map="a:a" parent-description="a" siblings-description="a"/>
         <properties>
           <property name="a" object-type="a" description="a" optional="true" multivalued="true" confidence="10" merge="match"/>
         </properties>
-      </eventtype>
-    </eventtypes>
+      </event-type>
+    </event-types>
     <sources/>
   </ontology>
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts/>
-    <eventtypes>
-      <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
+    <event-types>
+      <event-type name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
           <property name="a" object-type="a" description="a" optional="true" multivalued="true" confidence="10" merge="match"/>
           <property name="b" object-type="a" description="b" optional="true" multivalued="true" confidence="10"/>
         </properties>
-      </eventtype>
-      <eventtype name="b" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
+      </event-type>
+      <event-type name="b" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <!-- Parent description changed, event type version did not -->
-        <parent eventtype="a" propertymap="a:a" parent-description="changed" siblings-description="a"/>
+        <parent event-type="a" property-map="a:a" parent-description="changed" siblings-description="a"/>
         <properties>
           <property name="a" object-type="a" description="a" optional="true" multivalued="true" confidence="10" merge="match"/>
         </properties>
-      </eventtype>
-    </eventtypes>
+      </event-type>
+    </event-types>
     <sources/>
   </ontology>
 </edxml>

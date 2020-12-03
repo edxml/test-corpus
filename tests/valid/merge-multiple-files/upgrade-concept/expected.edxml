@@ -16,11 +16,11 @@ Test if upgrading of a concept works as expected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts>
       <concept name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="5"/>
     </concepts>
-    <eventtypes/>
+    <event-types/>
     <sources/>
   </ontology>
 </edxml>

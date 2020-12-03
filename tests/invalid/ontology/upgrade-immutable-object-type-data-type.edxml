@@ -16,19 +16,19 @@ Test if changing the data type of an object type is refused.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="boolean"/>
-    </objecttypes>
+    <object-types>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="boolean"/>
+    </object-types>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources/>
   </ontology>
   <ontology>
-    <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="2" data-type="number:int"/>
-    </objecttypes>
+    <object-types>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="2" data-type="number:int"/>
+    </object-types>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources/>
   </ontology>
 </edxml>

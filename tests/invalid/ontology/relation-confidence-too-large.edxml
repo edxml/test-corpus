@@ -16,14 +16,14 @@ Test if a relation having a confidence that is too large is rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="datetime"/>
-    </objecttypes>
+    <object-types>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="datetime"/>
+    </object-types>
     <concepts>
       <concept name="a" description="a" display-name-singular="a" display-name-plural="a" version="1"/>
     </concepts>
-    <eventtypes>
-      <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
+    <event-types>
+      <event-type name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
           <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
           <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
@@ -31,8 +31,8 @@ Test if a relation having a confidence that is too large is rejected.
         <relations>
           <other source="a" target="b" description="[[a]] linked to [[b]]" confidence="11" predicate="linked"/>
         </relations>
-      </eventtype>
-    </eventtypes>
+      </event-type>
+    </event-types>
     <sources/>
   </ontology>
 </edxml>

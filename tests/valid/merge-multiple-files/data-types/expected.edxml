@@ -13,43 +13,43 @@
 
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes>
-      <objecttype name="number.tinyint.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:tinyint:signed"/>
-      <objecttype name="number.tinyint.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:tinyint"/>
-      <objecttype name="number.smallint.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:smallint:signed"/>
-      <objecttype name="number.smallint.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:smallint"/>
-      <objecttype name="number.mediumint.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:mediumint:signed"/>
-      <objecttype name="number.mediumint.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:mediumint"/>
-      <objecttype name="number.int.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:int:signed"/>
-      <objecttype name="number.int.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:int"/>
-      <objecttype name="number.bigint.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:bigint:signed"/>
-      <objecttype name="number.bigint.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:bigint"/>
-      <objecttype name="number.float.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:float:signed"/>
-      <objecttype name="number.float.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:float"/>
-      <objecttype name="number.double.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:double:signed"/>
-      <objecttype name="number.double.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:double"/>
-      <objecttype name="number.decimal.3.2.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:2:signed"/>
-      <objecttype name="number.decimal.3.2.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:2"/>
-      <objecttype name="hex.6.2.colon" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:6:2::"/>
-      <objecttype name="hex.6.2.dot" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:6:2:."/>
-      <objecttype name="hex.6" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:6"/>
-      <objecttype name="geo.point" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="geo:point"/>
-      <objecttype name="hashlink" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hashlink"/>
-      <objecttype name="uri" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="uri:/"/>
-      <objecttype name="uuid" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="uuid"/>
-      <objecttype name="ip" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="ip:v4"/>
-      <objecttype name="datetime" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="datetime"/>
-      <objecttype name="sequence" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="sequence"/>
-      <objecttype name="boolean" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="boolean"/>
-      <objecttype name="enum" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="enum:yes:no"/>
-      <objecttype name="base64" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="base64:1024"/>
-      <objecttype name="string.8" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc"/>
-      <objecttype name="string.8.ci" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc"/>
-      <objecttype name="string.8.ci.u" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc:u"/>
-    </objecttypes>
+    <object-types>
+      <object-type name="number.tinyint.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:tinyint:signed"/>
+      <object-type name="number.tinyint.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:tinyint"/>
+      <object-type name="number.smallint.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:smallint:signed"/>
+      <object-type name="number.smallint.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:smallint"/>
+      <object-type name="number.mediumint.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:mediumint:signed"/>
+      <object-type name="number.mediumint.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:mediumint"/>
+      <object-type name="number.int.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:int:signed"/>
+      <object-type name="number.int.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:int"/>
+      <object-type name="number.bigint.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:bigint:signed"/>
+      <object-type name="number.bigint.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:bigint"/>
+      <object-type name="number.float.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:float:signed"/>
+      <object-type name="number.float.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:float"/>
+      <object-type name="number.double.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:double:signed"/>
+      <object-type name="number.double.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:double"/>
+      <object-type name="number.decimal.3.2.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:2:signed"/>
+      <object-type name="number.decimal.3.2.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:2"/>
+      <object-type name="hex.6.2.colon" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:6:2::"/>
+      <object-type name="hex.6.2.dot" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:6:2:."/>
+      <object-type name="hex.6" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:6"/>
+      <object-type name="geo.point" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="geo:point"/>
+      <object-type name="hashlink" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hashlink"/>
+      <object-type name="uri" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="uri:/"/>
+      <object-type name="uuid" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="uuid"/>
+      <object-type name="ip" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="ip:v4"/>
+      <object-type name="datetime" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="datetime"/>
+      <object-type name="sequence" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="sequence"/>
+      <object-type name="boolean" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="boolean"/>
+      <object-type name="enum" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="enum:yes:no"/>
+      <object-type name="base64" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="base64:1024"/>
+      <object-type name="string.8" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc"/>
+      <object-type name="string.8.ci" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc"/>
+      <object-type name="string.8.ci.u" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc:u"/>
+    </object-types>
     <concepts/>
-    <eventtypes>
-      <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
+    <event-types>
+      <event-type name="a" description="a" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
           <property name="number-tinyint-signed" object-type="number.tinyint.signed" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="number-tinyint-unsigned" object-type="number.tinyint.unsigned" description="a" optional="true" multivalued="true" confidence="10"/>
@@ -85,8 +85,8 @@
           <property name="string-8-ci-u" object-type="string.8.ci.u" description="a" optional="true" multivalued="true" confidence="10"/>
         </properties>
         <relations/>
-      </eventtype>
-    </eventtypes>
+      </event-type>
+    </event-types>
     <sources>
       <source uri="/test/" description="a" version="1"/>
     </sources>

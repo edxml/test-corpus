@@ -16,17 +16,17 @@ Test if conflicting source definitions are rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources>
       <source uri="/a/" description="a" version="1"/>
     </sources>
   </ontology>
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources>
       <!-- Description changed, version did not -->
       <source uri="/a/" description="changed" version="1"/>

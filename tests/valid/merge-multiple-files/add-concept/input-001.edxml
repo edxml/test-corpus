@@ -16,17 +16,17 @@ Test if adding a concept works as expected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources/>
   </ontology>
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts>
       <concept name="a" description="a" display-name-singular="a" display-name-plural="a" version="1"/>
     </concepts>
-    <eventtypes/>
+    <event-types/>
     <sources/>
   </ontology>
 </edxml>

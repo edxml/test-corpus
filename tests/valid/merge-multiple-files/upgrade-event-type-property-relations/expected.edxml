@@ -16,14 +16,14 @@ Test if upgrading of the property relations of an event type works as expected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" compress="true" data-type="string:10:mc"/>
-    </objecttypes>
+    <object-types>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" compress="true" data-type="string:10:mc"/>
+    </object-types>
     <concepts>
       <concept name="a" version="1" description="a" display-name-singular="a" display-name-plural="a"/>
     </concepts>
-    <eventtypes>
-      <eventtype name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="6">
+    <event-types>
+      <event-type name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="6">
         <properties>
           <property name="a" object-type="a" description="description" optional="true" multivalued="true" confidence="10" merge="match">
             <property-concept name="a" confidence="9" cnp="9"/>
@@ -34,8 +34,8 @@ Test if upgrading of the property relations of an event type works as expected.
           <!-- Changed predicate -->
           <other source="a" target="b" description="[[a]] linked to [[b]]" confidence="2" predicate="linked"/>
         </relations>
-      </eventtype>
-    </eventtypes>
+      </event-type>
+    </event-types>
     <sources/>
   </ontology>
 </edxml>

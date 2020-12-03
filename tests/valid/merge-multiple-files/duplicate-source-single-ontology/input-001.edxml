@@ -16,9 +16,9 @@ Test if duplicate source definitions within a single ontology element are accept
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources>
       <source uri="/a/" description="a" version="1"/>
       <source uri="/a/" description="a" version="1"/>

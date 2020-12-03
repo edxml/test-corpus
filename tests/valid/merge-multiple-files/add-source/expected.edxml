@@ -16,9 +16,9 @@ Test if adding a source works as expected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources>
       <source uri="/a/" description="a" version="1"/>
     </sources>

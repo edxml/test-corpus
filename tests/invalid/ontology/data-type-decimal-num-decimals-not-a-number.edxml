@@ -17,11 +17,11 @@ if a decimal data type having a non-numeric decimals count is rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:null"/>
-    </objecttypes>
+    <object-types>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:null"/>
+    </object-types>
     <concepts/>
-    <eventtypes/>
+    <event-types/>
     <sources/>
   </ontology>
 </edxml>

@@ -16,11 +16,11 @@ Test if duplicate concept definitions in multiple files are accepted.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes/>
+    <object-types/>
     <concepts>
       <concept name="a" version="1" description="a" display-name-singular="a" display-name-plural="a"/>
     </concepts>
-    <eventtypes/>
+    <event-types/>
     <sources/>
   </ontology>
 </edxml>

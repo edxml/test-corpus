@@ -18,21 +18,21 @@ an optional property is rejected
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
-    <objecttypes>
-      <objecttype name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:int"/>
-      <objecttype name="b" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="sequence"/>
-    </objecttypes>
+    <object-types>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:int"/>
+      <object-type name="b" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="sequence"/>
+    </object-types>
     <concepts/>
-    <eventtypes>
-      <eventtype name="a" description="a" event-version="c" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
+    <event-types>
+      <event-type name="a" description="a" event-version="c" display-name-singular="a" display-name-plural="a" summary="a" story="a" version="1">
         <properties>
           <property name="a" object-type="a" description="c" optional="false" multivalued="false" confidence="10" merge="match"/>
           <property name="b" object-type="a" description="c" optional="false" multivalued="false" confidence="10" merge="replace"/>
           <property name="c" object-type="b" description="c" optional="true" multivalued="false" confidence="10" merge="max"/>
         </properties>
         <relations/>
-      </eventtype>
-    </eventtypes>
+      </event-type>
+    </event-types>
     <sources/>
   </ontology>
 </edxml>
