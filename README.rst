@@ -14,6 +14,8 @@ The collection is not complete in the sense that it provides any guarantees rega
 
 The collection is also no substitute for unit tests that directly invoke the internal APIs of an implementation. The test corpus is complementary, adding particular value for testing the handling of invalid EDXML data which is typically difficult to produce using internal APIs.
 
+The files are available in the ``tests/`` directory. For each EDXML version there is a subdirectory containing test files that are valid for that particular version of the EDXML specification.  For example, the test files for EDXML version 3.0.0 are in the ``tests/3/3.0/3.0.0`` directory. Due to the EDXML specification using semantic versioning, the directories associated with minor or patch version updates only contain additional tests for testing specific changes introduced in that particular update. Each major version contains a completely new set of test files.
+
 How to Use
 ==========
 
@@ -22,7 +24,7 @@ The test corpus can be used in your projects by cloning this repository. For PHP
 .. _Python package: python/edxml-test-corpus
 .. _Composer package: php
 
-Testing if a file or set of files was parsed correctly is done in various ways, depending on the type of test. The collection is subdivided in three categories containing tree different types of tests:
+Testing if a file or set of files was parsed correctly is done in various ways, depending on the type of test. The collection for a specific EDXML version is subdivided in three categories containing tree different types of tests:
 
 1. Valid data that implementations must ingest without problems (in ``valid/``)
 2. Invalid data that implementations must refuse to ingest (in ``invalid/``)
