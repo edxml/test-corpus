@@ -12,8 +12,7 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--
-Testing object value validation, verify
-if values for event attachments that are not
+Verify if values for event attachments that are not
 defined on the event type are rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
