@@ -23,7 +23,7 @@ Test if a property confidence that is too small is rejected.
     <event-types>
       <event-type name="a" description="a" display-name-singular="a" display-name-plural="a" summary="[[a]]" story="[[a]]" version="1">
         <properties>
-          <property name="a" object-type="a" description="a" optional="true" multivalued="true" confidence="10" merge="match" confidence="0"/>
+          <property name="a" object-type="a" description="a" optional="true" multivalued="true" merge="match" confidence="0"/>
         </properties>
         <relations/>
       </event-type>
