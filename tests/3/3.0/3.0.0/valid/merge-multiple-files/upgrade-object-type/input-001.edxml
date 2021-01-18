@@ -17,7 +17,7 @@ Test if upgrading of an object type works as expected.
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <object-types>
-      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" compress="true" data-type="string:10:mc" regexp="[a-z]"/>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" compress="true" data-type="string:10:mc" regex-hard="[a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>
@@ -26,7 +26,7 @@ Test if upgrading of an object type works as expected.
   <ontology>
     <object-types>
       <!-- No changes, only a version increment. -->
-      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="2" compress="true" data-type="string:10:mc" regexp="[a-z]"/>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="2" compress="true" data-type="string:10:mc" regex-hard="[a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>
@@ -34,7 +34,7 @@ Test if upgrading of an object type works as expected.
   </ontology>
   <ontology>
     <object-types>
-      <object-type name="a" description="changed-description" display-name-singular="a" display-name-plural="a" version="3" compress="true" data-type="string:10:mc" regexp="[a-z]"/>
+      <object-type name="a" description="changed-description" display-name-singular="a" display-name-plural="a" version="3" compress="true" data-type="string:10:mc" regex-hard="[a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>
@@ -42,7 +42,7 @@ Test if upgrading of an object type works as expected.
   </ontology>
   <ontology>
     <object-types>
-      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="a" version="4" compress="true" data-type="string:10:mc" regexp="[a-z]"/>
+      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="a" version="4" compress="true" data-type="string:10:mc" regex-hard="[a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>
@@ -50,7 +50,7 @@ Test if upgrading of an object type works as expected.
   </ontology>
   <ontology>
     <object-types>
-      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="5" compress="true" data-type="string:10:mc" regexp="[a-z]"/>
+      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="5" compress="true" data-type="string:10:mc" regex-hard="[a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>
@@ -58,7 +58,7 @@ Test if upgrading of an object type works as expected.
   </ontology>
   <ontology>
     <object-types>
-      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="6" compress="false" data-type="string:10:mc" regexp="[a-z]"/>
+      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="6" compress="false" data-type="string:10:mc" regex-hard="[a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>
@@ -66,7 +66,7 @@ Test if upgrading of an object type works as expected.
   </ontology>
   <ontology>
     <object-types>
-      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="7" compress="false" data-type="string:10:mc" fuzzy-matching="phonetic" regexp="[a-z]"/>
+      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="7" compress="false" data-type="string:10:mc" fuzzy-matching="phonetic" regex-hard="[a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>
@@ -74,7 +74,7 @@ Test if upgrading of an object type works as expected.
   </ontology>
   <ontology>
     <object-types>
-      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="8" compress="false" data-type="string:10:mc" fuzzy-matching="phonetic" regexp="[a-z]|[A-Z]"/>
+      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="8" compress="false" data-type="string:10:mc" fuzzy-matching="phonetic" regex-hard="[a-z]|[A-Z]"/>
     </object-types>
     <concepts/>
     <event-types/>
@@ -82,7 +82,7 @@ Test if upgrading of an object type works as expected.
   </ontology>
   <ontology>
     <object-types>
-      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="9" compress="false" data-type="string:10:mc" fuzzy-matching="phonetic" regexp="[a-z]|[A-Z]" regex-soft="[a-z]"/>
+      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="9" compress="false" data-type="string:10:mc" fuzzy-matching="phonetic" regex-hard="[a-z]|[A-Z]" regex-soft="[a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>

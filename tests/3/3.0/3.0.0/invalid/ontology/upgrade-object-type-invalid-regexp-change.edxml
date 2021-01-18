@@ -17,7 +17,7 @@ Test if upgrading an object type while changing the regexp attribute in an inval
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <object-types>
-      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:10:mc" regexp="[a-z]"/>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:10:mc" regex-hard="[a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>
@@ -26,7 +26,7 @@ Test if upgrading an object type while changing the regexp attribute in an inval
   <ontology>
     <object-types>
       <!-- Regexp is changed -->
-      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="2" data-type="string:10:mc" regexp="[0-9a-z]"/>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="2" data-type="string:10:mc" regex-hard="[0-9a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>

@@ -26,7 +26,7 @@ Test if upgrading an object type setting the regexp attribute is rejected.
   <ontology>
     <object-types>
       <!-- Regexp is set -->
-      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="2" data-type="string:10:mc" regexp="[a-z]"/>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="2" data-type="string:10:mc" regex-hard="[a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>
