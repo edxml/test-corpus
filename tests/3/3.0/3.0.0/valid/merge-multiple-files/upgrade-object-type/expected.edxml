@@ -17,7 +17,7 @@ Test if upgrading of an object type works as expected.
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <object-types>
-      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="8" compress="false" data-type="string:10:mc" fuzzy-matching="phonetic" regexp="[a-z]|[A-Z]"/>
+      <object-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" version="9" compress="false" data-type="string:10:mc" fuzzy-matching="phonetic" regexp="[a-z]|[A-Z]" regex-soft="[a-z]"/>
     </object-types>
     <concepts/>
     <event-types/>
