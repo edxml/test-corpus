@@ -27,7 +27,7 @@ Test if a relation of type 'name' that used a multi-valued source property is re
           <property name="b" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
         </properties>
         <relations>
-          <name source="a" target="b" confidence="2"/>
+          <name source="a" target="b"/>
         </relations>
       </event-type>
     </event-types>
