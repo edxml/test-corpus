@@ -12,7 +12,7 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--
-Testing event structure validation, verify
+Testing ontology component validation, verify
 if an event type that defines an event version using
 a property that does not have the sequence data type
 is rejected

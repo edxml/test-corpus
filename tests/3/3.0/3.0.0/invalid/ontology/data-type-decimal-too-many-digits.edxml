@@ -12,7 +12,7 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--
-Testing event definition validation, verify
+Testing ontology component validation, verify
 if a decimal data type having too many digits is rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">

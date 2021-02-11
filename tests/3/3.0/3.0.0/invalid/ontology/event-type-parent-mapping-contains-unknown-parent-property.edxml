@@ -12,7 +12,7 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--
-Testing database import event validation, verify
+Testing ontology component validation, verify
 if parent definitions that map unknown parent properties are rejected:
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">

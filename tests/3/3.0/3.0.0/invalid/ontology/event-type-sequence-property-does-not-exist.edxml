@@ -12,7 +12,7 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--
-Testing event definition validation, verify
+Testing ontology component validation, verify
 if event types that define a sequence property
 that does not exist are rejected.
 -->

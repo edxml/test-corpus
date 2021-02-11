@@ -12,7 +12,7 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--
-Testing event definition validation, verify
+Testing ontology component validation, verify
 if a geo data type having a nonexistent member type is rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">

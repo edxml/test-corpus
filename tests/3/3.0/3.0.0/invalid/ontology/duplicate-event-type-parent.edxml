@@ -12,7 +12,7 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--
-Testing event structure validation, verify
+Testing ontology component validation, verify
 if duplicate parent definitions are rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">

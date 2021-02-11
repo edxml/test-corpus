@@ -12,7 +12,7 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--
-Testing event structure validation, verify
+Testing ontology component validation, verify
 if an event type that defines a sequence using
 a multi-valued property is rejected
 -->

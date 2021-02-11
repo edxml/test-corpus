@@ -12,7 +12,7 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--
-Testing event structure validation, verify
+Testing ontology component validation, verify
 if multi-valued property having merge="min" is rejected
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">

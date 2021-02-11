@@ -12,7 +12,7 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--
-Testing event definition validation, verify
+Testing ontology component validation, verify
 if hashed properties that have a floating point
 data type are rejected.
 -->
