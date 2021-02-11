@@ -17,7 +17,7 @@ Test if upgrading an object type setting the unit name but not the unit symbol a
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <object-types>
-      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:10:mc"/>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:float"/>
     </object-types>
     <concepts/>
     <event-types/>
@@ -26,7 +26,7 @@ Test if upgrading an object type setting the unit name but not the unit symbol a
   <ontology>
     <object-types>
       <!-- Unit name is set -->
-      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="2" data-type="string:10:mc" unit-name="meters"/>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="2" data-type="number:float" unit-name="meters"/>
     </object-types>
     <concepts/>
     <event-types/>
