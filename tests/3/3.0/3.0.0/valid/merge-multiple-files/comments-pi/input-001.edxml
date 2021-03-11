@@ -78,7 +78,7 @@ Test if XML containing comments and processing instructions is accepted.
     <!-- comment -->
     <attachments>
       <!-- comment -->
-      <a><!-- comment -->a</a>
+      <a id="1"><!-- comment -->a</a>
     </attachments>
   </event>
 </edxml>

@@ -42,7 +42,7 @@ if empty event attachments are rejected.
     </properties>
     <attachments>
       <!-- "test" without the mandatory "==" padding -->
-      <a>dGVzdA</a>
+      <a id="1">dGVzdA</a>
     </attachments>
   </event>
 </edxml>

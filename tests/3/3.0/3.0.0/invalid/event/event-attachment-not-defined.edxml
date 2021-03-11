@@ -39,7 +39,7 @@ defined on the event type are rejected.
       <a>a</a>
     </properties>
     <attachments>
-      <a>test</a>
+      <a id="1">test</a>
     </attachments>
   </event>
 </edxml>
