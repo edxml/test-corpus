@@ -35,7 +35,7 @@ if a uppercase hexadecimal value is rejected.
   </ontology>
   <event event-type="a" source-uri="/test/">
     <properties>
-      <a>F</a>
+      <a>FF</a>
     </properties>
   </event>
 </edxml>

@@ -18,7 +18,7 @@ if a hexadecimal value which is too short is rejected.
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <object-types>
-      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3"/>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:2"/>
     </object-types>
     <concepts/>
     <event-types>

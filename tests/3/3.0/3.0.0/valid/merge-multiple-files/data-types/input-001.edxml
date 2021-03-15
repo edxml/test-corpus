@@ -33,9 +33,9 @@ Testing if valid values of various data types are correctly parsed and reproduce
       <object-type name="number.double.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:double"/>
       <object-type name="number.decimal.3.2.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:2:signed"/>
       <object-type name="number.decimal.3.2.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:2"/>
-      <object-type name="hex.6.2.colon" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:6:2::"/>
-      <object-type name="hex.6.2.dot" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:6:2:."/>
-      <object-type name="hex.6" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:6"/>
+      <object-type name="hex.3.1.colon" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3:1::"/>
+      <object-type name="hex.3.1.dot" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3:1:."/>
+      <object-type name="hex.3" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3"/>
       <object-type name="geo.point" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="geo:point"/>
       <object-type name="hashlink" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hashlink"/>
       <object-type name="uri" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="uri:/"/>
@@ -70,9 +70,9 @@ Testing if valid values of various data types are correctly parsed and reproduce
           <property name="number-double-unsigned" object-type="number.double.unsigned" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="number-decimal-3-2-signed" object-type="number.decimal.3.2.signed" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="number-decimal-3-2-unsigned" object-type="number.decimal.3.2.unsigned" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="hex-6-2-colon" object-type="hex.6.2.colon" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="hex-6-2-dot" object-type="hex.6.2.dot" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="hex-6" object-type="hex.6" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="hex-3-1-colon" object-type="hex.3.1.colon" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="hex-3-1-dot" object-type="hex.3.1.dot" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="hex-3" object-type="hex.3" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="geo-point" object-type="geo.point" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="hashlink" object-type="hashlink" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="uri" object-type="uri" description="a" optional="true" multivalued="true" confidence="10"/>
@@ -112,9 +112,9 @@ Testing if valid values of various data types are correctly parsed and reproduce
       <number-double-unsigned>3.000000E+300</number-double-unsigned>
       <number-decimal-3-2-signed>-1.00</number-decimal-3-2-signed>
       <number-decimal-3-2-unsigned>1.00</number-decimal-3-2-unsigned>
-      <hex-6-2-colon>aa:bb:cc</hex-6-2-colon>
-      <hex-6-2-dot>aa.bb.cc</hex-6-2-dot>
-      <hex-6>aabbcc</hex-6>
+      <hex-3-1-colon>aa:bb:cc</hex-3-1-colon>
+      <hex-3-1-dot>aa.bb.cc</hex-3-1-dot>
+      <hex-3>aabbcc</hex-3>
       <geo-point>43.000001,115.999999</geo-point>
       <geo-point>-90.000000,-180.000000</geo-point>
       <geo-point>90.000000,-180.000000</geo-point>
