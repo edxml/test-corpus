@@ -111,17 +111,4 @@ Test if upgrading the attributes of an event type works as expected.
     </event-types>
     <sources/>
   </ontology>
-  <ontology>
-    <object-types/>
-    <concepts/>
-    <event-types>
-      <event-type name="a" description="changed-description" display-name-singular="changed-display-name-singular" display-name-plural="changed-display-name-plural" summary="changed summary" story="changed-story" class-list="class" version="8">
-        <properties>
-          <property name="a" object-type="a" description="a" optional="false" multivalued="false" confidence="10" merge="match"/>
-        </properties>
-        <relations/>
-      </event-type>
-    </event-types>
-    <sources/>
-  </ontology>
 </edxml>
