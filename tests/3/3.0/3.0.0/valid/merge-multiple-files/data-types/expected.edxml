@@ -34,7 +34,7 @@
       <object-type name="hex.3.1.dot" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3:1:."/>
       <object-type name="hex.3" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3"/>
       <object-type name="geo.point" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="geo:point"/>
-      <object-type name="hashlink" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hashlink"/>
+      <object-type name="file" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="file"/>
       <object-type name="uri" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="uri:/"/>
       <object-type name="uuid" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="uuid"/>
       <object-type name="ip" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="ip:v4"/>
@@ -71,7 +71,7 @@
           <property name="hex-3-1-dot" object-type="hex.3.1.dot" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="hex-3" object-type="hex.3" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="geo-point" object-type="geo.point" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="hashlink" object-type="hashlink" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="file" object-type="file" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="uri" object-type="uri" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="uuid" object-type="uuid" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="ip" object-type="ip" description="a" optional="true" multivalued="true" confidence="10"/>
@@ -117,7 +117,7 @@
       <geo-point>90.000000,-180.000000</geo-point>
       <geo-point>-90.000000,180.000000</geo-point>
       <geo-point>90.000000,180.000000</geo-point>
-      <hashlink>da39a3ee5e6b4b0d3255bfef95601890afd80709</hashlink>
+      <file>path/to/file</file>
       <uri>http://test</uri>
       <uuid>123e4567-e89b-12d3-a456-426655440000</uuid>
       <ip>10.0.0.1</ip>

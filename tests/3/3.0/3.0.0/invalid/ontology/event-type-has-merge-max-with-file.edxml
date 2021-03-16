@@ -16,12 +16,12 @@ Testing ontology component validation, verify
 if properties illegal combinations of merge
 strategies and data types are rejected.
 
-max strategy combined with hashlink data type.
+max strategy combined with file data type.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <object-types>
-      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hashlink"/>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="file"/>
     </object-types>
     <concepts/>
     <event-types>
