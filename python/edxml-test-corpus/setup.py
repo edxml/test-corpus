@@ -1,7 +1,19 @@
+import os
 import setuptools
 
 with open("README.rst", "r") as fh:
     long_description = fh.read()
+
+
+def package_files(directory):
+    paths = []
+    for (path, directories, filenames) in os.walk(directory):
+        for filename in filenames:
+            paths.append(os.path.join('..', path, filename))
+    return paths
+
+
+tests = package_files('edxml_test_corpus/tests')
 
 setuptools.setup(
     name="edxml-test-corpus",
@@ -22,6 +34,6 @@ setuptools.setup(
         "Topic :: Scientific/Engineering :: Artificial Intelligence"
     ],
     package_data={
-        'edxml_test_corpus': ['tests/*/*.edxml', 'tests/*/*/*.edxml', 'tests/*/*/*/*.edxml']
+        '': tests
     },
 )
