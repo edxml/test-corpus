@@ -17,7 +17,7 @@ Testing if a foreign attribute without a namespace is rejected.
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
     <object-types>
-      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:1:mc"/>
+      <object-type name="a" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:3:mc"/>
     </object-types>
     <concepts/>
     <event-types>
@@ -34,7 +34,7 @@ Testing if a foreign attribute without a namespace is rejected.
   </ontology>
   <event event-type="a" source-uri="/test/" attribute="foreign">
     <properties>
-      <a/>
+      <a>foo</a>
     </properties>
   </event>
 </edxml>
