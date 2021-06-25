@@ -13,7 +13,7 @@
 
 <!--
 Testing object value validation, verify
-if empty event attachments are rejected.
+if base64 encoded event attachments without padding are rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
