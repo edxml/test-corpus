@@ -35,7 +35,7 @@ if a geo:point value having a longitude < -180 is rejected.
   </ontology>
   <event event-type="a" source-uri="/test/">
     <properties>
-      <a>43.133122,-180.000001</a>
+      <a>43.133122,-180.000000</a>
     </properties>
   </event>
 </edxml>

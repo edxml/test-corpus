@@ -13,7 +13,7 @@
 
 <!--
 Testing object value validation, verify
-if a geo:point value having a latitude < 90 is rejected.
+if a geo:point value having a latitude of 90 with a nonzero longitude is rejected.
 -->
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0">
   <ontology>
@@ -35,7 +35,7 @@ if a geo:point value having a latitude < 90 is rejected.
   </ontology>
   <event event-type="a" source-uri="/test/">
     <properties>
-      <a>-90.000001,0.000000</a>
+      <a>90.000000,5.000000</a>
     </properties>
   </event>
 </edxml>

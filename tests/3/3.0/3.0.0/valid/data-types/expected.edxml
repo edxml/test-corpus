@@ -113,10 +113,8 @@
       <hex-3-1-dot>aa.bb.cc</hex-3-1-dot>
       <hex-3>aabbcc</hex-3>
       <geo-point>43.000001,115.999999</geo-point>
-      <geo-point>-90.000000,-180.000000</geo-point>
-      <geo-point>90.000000,-180.000000</geo-point>
-      <geo-point>-90.000000,180.000000</geo-point>
-      <geo-point>90.000000,180.000000</geo-point>
+      <geo-point>-90.000000,0.000000</geo-point>
+      <geo-point>90.000000,0.000000</geo-point>
       <file>path/to/file</file>
       <uri>http://test</uri>
       <uuid>123e4567-e89b-12d3-a456-426655440000</uuid>
