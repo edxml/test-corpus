@@ -15,11 +15,11 @@ test: dependencies
 	@echo "Running tests:"
 	python3 -m pytest tests -W ignore::DeprecationWarning
 
-dist:
+dist: dependencies
 	@echo "Building distribution:"
 	python3 setup.py sdist bdist_wheel
 
-pypi:
+pypi: dist
 	# NOTE: twine will read TWINE_USERNAME and TWINE_PASSWORD from environment
 	@echo "Uploading to PyPI:"
 	twine upload dist/*
