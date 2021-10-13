@@ -16,6 +16,7 @@ test: dependencies
 	python3 -m pytest tests -W ignore::DeprecationWarning
 
 dist: dependencies
+	rm -rf build
 	@echo "Building distribution:"
 	python3 setup.py sdist bdist_wheel
 
