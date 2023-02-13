@@ -28,11 +28,11 @@
       <object-type name="number.float.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:float"/>
       <object-type name="number.double.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:double:signed"/>
       <object-type name="number.double.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:double"/>
-      <object-type name="number.decimal.3.2.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:2:signed"/>
-      <object-type name="number.decimal.3.2.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:2"/>
-      <object-type name="hex.3.1.colon" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3:1::"/>
-      <object-type name="hex.3.1.dot" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3:1:."/>
-      <object-type name="hex.3" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3"/>
+      <object-type name="number.decimal32.signed" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:2:signed"/>
+      <object-type name="number.decimal32.unsigned" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="number:decimal:3:2"/>
+      <object-type name="hex31.colon" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3:1::"/>
+      <object-type name="hex31.dot" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3:1:."/>
+      <object-type name="hex3" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="hex:3"/>
       <object-type name="geo.point" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="geo:point"/>
       <object-type name="file" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="file"/>
       <object-type name="uri" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="uri:/"/>
@@ -43,9 +43,9 @@
       <object-type name="boolean" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="boolean"/>
       <object-type name="enum" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="enum:yes:no"/>
       <object-type name="base64" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="base64:1024"/>
-      <object-type name="string.8" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc"/>
-      <object-type name="string.8.ci" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc"/>
-      <object-type name="string.8.ci.u" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc:u"/>
+      <object-type name="string8" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc"/>
+      <object-type name="string8.ci" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc"/>
+      <object-type name="string8.ci.u" description="a" display-name-singular="a" display-name-plural="a" version="1" data-type="string:8:mc:u"/>
     </object-types>
     <concepts/>
     <event-types>
@@ -65,11 +65,11 @@
           <property name="number-float-unsigned" object-type="number.float.unsigned" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="number-double-signed" object-type="number.double.signed" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="number-double-unsigned" object-type="number.double.unsigned" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="number-decimal-3-2-signed" object-type="number.decimal.3.2.signed" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="number-decimal-3-2-unsigned" object-type="number.decimal.3.2.unsigned" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="hex-3-1-colon" object-type="hex.3.1.colon" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="hex-3-1-dot" object-type="hex.3.1.dot" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="hex-3" object-type="hex.3" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="number-decimal-3-2-signed" object-type="number.decimal32.signed" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="number-decimal-3-2-unsigned" object-type="number.decimal32.unsigned" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="hex-3-1-colon" object-type="hex31.colon" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="hex-3-1-dot" object-type="hex31.dot" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="hex-3" object-type="hex3" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="geo-point" object-type="geo.point" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="file" object-type="file" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="uri" object-type="uri" description="a" optional="true" multivalued="true" confidence="10"/>
@@ -80,9 +80,9 @@
           <property name="boolean" object-type="boolean" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="enum" object-type="enum" description="a" optional="true" multivalued="true" confidence="10"/>
           <property name="base64" object-type="base64" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="string-8" object-type="string.8" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="string-8-ci" object-type="string.8.ci" description="a" optional="true" multivalued="true" confidence="10"/>
-          <property name="string-8-ci-u" object-type="string.8.ci.u" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="string-8" object-type="string8" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="string-8-ci" object-type="string8.ci" description="a" optional="true" multivalued="true" confidence="10"/>
+          <property name="string-8-ci-u" object-type="string8.ci.u" description="a" optional="true" multivalued="true" confidence="10"/>
         </properties>
         <relations/>
       </event-type>
