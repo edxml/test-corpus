@@ -54,4 +54,4 @@ There can be various aspects of EDXML data that can be invalid, like an ontology
 
 Testing conflict handling
 ------------------------
-EDXML events can be versioned and versioned events can yield conflicts. These tests include events that are conflicting as well as events that are not. EDXML implementations must correctly identify both.
+EDXML events can be versioned and versioned events can yield conflicts. These tests include events that are conflicting (in the ``conflicting`` subdirectory) as well as events that are not (in the ``non-conflicting`` subdirectory). EDXML implementations must correctly identify both.
