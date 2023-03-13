@@ -17,7 +17,7 @@ tests = package_files('edxml_test_corpus/tests')
 
 setuptools.setup(
     name="edxml-test-corpus",
-    version="3.0.0",
+    version="3.0.1",
     author="Dik Takken",
     author_email="dik.takken@edxml.org",
     description="A collection of portable unit tests for EDXML implementations",
